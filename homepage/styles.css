@@ -8,11 +8,6 @@
 }
 
 html {
-    background: url(./resources/mural.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     font-size: 16px;
 }
 
@@ -60,7 +55,7 @@ li {
 }
 
 h1 a {
-    color: rgb(0, 0, 105);
+    color: rgb(192, 40, 2); 
 }
 
 .missionstatement a {
@@ -68,24 +63,17 @@ h1 a {
 }
 
 .communitypainting a {
-    color: rgb(192, 40, 2);
+    color: rgb(0, 0, 105);
 }
 
-@media only screen and (min-width: 768px) {
-    .navbar {
-        background: rgba(255, 255, 255, .4);
-    }
-}
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 830px) {
     .nav-item {
         padding: 0 .25rem;
         line-height: 2rem;
-        margin: 1.5rem 0;
+        margin: 1rem 0;
     }
     .navbar {
         display: block;
-        
     }
 
     li {
@@ -97,19 +85,16 @@ h1 a {
 
 }
 
-/* Footer Styles  */
+/* Image Styles  */
 
-footer {
-    width: 100vw;
-    height: 92vh;
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: end;
-    align-items: flex-end;
+.mural-container {
+    text-align: center;
 }
 
-.signature {
-    z-index: 0;
-    padding: .5rem;
-    color:rgb(255, 255, 255);
+img {
+    display: block;
+    max-width: 100vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
