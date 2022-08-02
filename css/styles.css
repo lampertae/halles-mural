@@ -58,11 +58,11 @@ h1 a {
     color: rgb(192, 40, 2); 
 }
 
-.missionstatement a {
+.mission-statement a {
     color: rgb(1, 73, 1);
 }
 
-.communitypainting a {
+.community-painting a {
     color: rgb(0, 0, 105);
 }
 
@@ -70,11 +70,11 @@ h1 a:hover {
     color: rgba(192, 40, 2, .7);
 }
 
-.missionstatement a:hover {
+.mission-statement a:hover {
     color: rgba(1, 73, 1, .7);
 }
 
-.communitypainting a:hover {
+.community-painting a:hover {
     color: rgba(0, 0, 105, .7);
 }
 
