@@ -51,7 +51,7 @@ li {
 .nav-item {
     font-size: 1.1rem;
     font-weight: 400;
-    padding: 0 .5rem;
+    padding: 0rem;
 }
 
 h1 a {
@@ -66,11 +66,23 @@ h1 a {
     color: rgb(0, 0, 105);
 }
 
+h1 a:hover {
+    color: rgba(192, 40, 2, .7);
+}
+
+.missionstatement a:hover {
+    color: rgba(1, 73, 1, .7);
+}
+
+.communitypainting a:hover {
+    color: rgba(0, 0, 105, .7);
+}
+
 @media only screen and (max-width: 830px) {
     .nav-item {
         padding: 0 .25rem;
         line-height: 2rem;
-        margin: 1rem 0;
+        margin: 0;
     }
     .navbar {
         display: block;
@@ -107,4 +119,10 @@ footer {
 
 .footer-text {
     padding: 2rem .5rem;
+}
+
+@media only screen and (max-width: 830px) {
+    .footer-text {
+        padding: 3rem .5rem;
+    }
 }
